@@ -1,0 +1,505 @@
+body{
+ top: 60px;
+left: 0px;
+    background-color: #0098DA ;
+}
+.para{
+
+width: 25em;
+height: 100px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    margin-left: 200px;
+    margin-right:1022px ;
+    margin-top:140px ;
+    margin-bottom:22px ;
+    padding: 3em;
+    color: #FFFFFF;
+}
+header{
+   background-position: center;
+}
+ul{
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 60px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: white;padding: 5px;
+    transition: 0.6sease;
+    
+}
+ul li a:hover{
+   background-color: white;
+    color: black;
+    
+    
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.play img{
+    padding-top:px;
+}
+.search img{
+   height: 20px;
+    float: right;
+}
+.main{
+    max-width: 1200px;
+    margin: auto
+}
+.play{
+  display: flex;
+    align-items: center;
+     margin-left: 250px;
+    margin-right:500px ;
+    margin-top: 10px;
+}
+.hero{
+     margin-top: -250px ;
+    margin-left: 650px;   
+}
+.hero img{
+    height: 290px;
+    width: 310px;
+}
+.image{
+    flex-basis: 40%;
+}
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+.search{
+    border-left: 10px;
+}
+.support{
+   
+    margin-top:-10px ;
+    margin-left:1100px;
+    margin-right: 70px;   
+}
+.support img{
+    border-radius: 50%;
+     background-color: red;
+    box-shadow: 0 0 0 5px white;
+}
+#downarrow{
+    height: 50px;
+    align-content: center;
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.page2{
+   background-color:#006C9D;
+    width: auto;
+    height:600px ;
+    margin-top: -55px;
+    margin-left: -7px;
+    margin-right: -8px;
+    border:black;
+}
+.what{
+  
+    margin-left:540px ;
+    margin-top:50 px;
+    margin-right:550px ;
+    text-align: center;
+}
+.what #we{
+    font-size: 15px;
+    color: yellow;
+    text-align: center;
+}
+.what #service{
+    font-size: 25px;
+    height:15px;
+    color: white;;
+    
+}
+
+.square-box1{
+    width: 10em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    margin-left: 80px;
+    margin-right:1100px ;
+    margin-top:140px ;
+    margin-bottom:22px ;
+    padding: 3em;
+    background-color: white;
+} 
+#wireless{
+    color:#006C9D;
+}
+#cost{
+    color: #29313E;
+    text-align: center;
+}
+
+.square-box2{
+    width: 10em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    margin-left: 380px;
+    margin-top:-357px ;
+    margin-bottom:22px ;
+    padding: 3em;
+    background-color: white;
+} 
+
+.square-box3{
+    width: 10em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    margin-left: 670px;
+    margin-right: 500px;
+    margin-top:-357px ;
+    margin-bottom:22px ;
+    padding: 3em;
+    background-color: white;
+} 
+
+.square-box4{
+    width: 10em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    padding: 3em;
+    margin-top: -357px;
+    margin-left: 960px;
+    background-color: white;
+} 
+
+.page3{
+   background-color:white;
+    width: auto;
+    height:600px ;
+    margin-top: -20px;
+    margin-left: -7px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+.broadband{
+  display: flex;
+    align-items: center;
+     margin-left: 500px;
+    margin-right:500px ;
+    margin-top: 10px;
+}
+.broadband img{
+    height:120px ;
+    width: 120px;
+}
+.broadband h1{
+    height: 25px;
+}
+form button{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    height: 35px;
+    width: 130px;
+}
+form input{
+  height: 20px;
+    width: 230px;
+}
+form select{
+  height: 23px;
+    width: 230px;
+}
+form{
+    margin-left: 400px;
+}
+.page4{
+    width:1350x;
+    height:650px ;
+    margin-top: -22px;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 1325px;
+    opacity:90%;
+}
+.page4 h1{
+    color: white;
+    height: 53px;
+    width: 432px;
+    text-align: center;
+    margin-left:450px;
+}
+#ipsum{
+    width: 38em;
+    word-break: break-all;
+    margin-left: 400px;
+    text-align: center;
+    color: white;
+    
+}
+.customplan{
+    height: 340px;
+    width: 300px;
+    background-color: white;
+    margin-left: 300px;
+    transform: skew(20deg);
+    border-radius: 12px;
+    margin-top: 40px;
+}
+.customplan img{
+    margin-top: 30px;
+    margin-left:130px;
+    height: 40px;
+    width: 40px;
+}
+.rectangle{
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    background-color: #0098DA;
+    border-radius: 5px;
+    margin-left:60px;
+}
+.billingplan{
+    height: 340px;
+    width: 300px;
+    background-color: white;
+    margin-left: 770px;
+    transform: skew(-20deg);
+    border-radius: 12px;
+    margin-top:-345px;
+}
+.billingplan img{
+    margin-top: 30px;
+    margin-left:130px;
+    height: 40px;
+    width: 40px;
+}
+.plan{
+    font-size: 30px;
+    margin-left: 70px;
+    color: black;
+}
+.premium{
+    width: 15em;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 25px;
+    color: #888888;
+}
+.learn{
+    color: #888888;
+    margin-left: 110px;
+}
+
+.page5{
+   background-color:white;
+    width: auto;
+    height:500px;
+    margin-top: -18px;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+ .page5 h1{
+     margin-left: 580px;
+ }
+.FUP{
+    width: 15em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    padding: 3em;
+    margin-top:50px ;
+    margin-left:150px;
+    margin-right: 1000px;
+  
+} 
+.household{
+    width: 15em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    padding: 3em;
+    margin-top:-350px;
+    margin-left:570px;
+    margin-right:900px;
+  
+} 
+.charges{
+    width: 15em;
+    height: 240px;
+    text-align: left;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    padding: 3em;
+    margin-top:-310px;
+    margin-left:900px;
+} 
+.page6{
+   background-color:#0098DA;
+    width: auto;
+    height:600px ;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.circle1{
+    width:40px;
+    height:40px;
+    background: yellow;
+    margin:10% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -357px;
+    margin-left: 270px;
+}
+.circle2{
+    width:40px;
+    height:40px;
+    background: yellow;
+    margin:10% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -180px;
+    margin-left: 575px;
+}
+
+.circle4{
+    width:40px;
+    height:40px;
+    background: yellow;
+    margin:10% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -178px;
+    margin-left: 1150px;
+}
+.circle3{
+    width:40px;
+    height:40px;
+    background: yellow;
+    margin:10% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -180px;
+    margin-left:870px;
+}
+.content{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+.semicircle{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 150px 150px 0 0;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 275px;
+}
+#client{
+    margin-left:540px;
+    color: #FFFFFF;
+}
+.arrow{
+    margin-top: 50px;
+}
+.client1{
+    height:180px;
+    width:300px;
+   background-color: white;
+   margin-left: 100px;
+   text-align: center;
+   border-radius: 10px;
+}
+.client2{
+    height:180px;
+    width:300px;
+   background-color: white;
+   margin-left: 500px;
+   margin-top: -180px;
+   text-align: center;
+   border-radius: 10px;
+}
+.client3{
+    height:180px;
+ width:300px;
+   background-color: white;
+   margin-left: 900px;
+   margin-top: -180px;
+   text-align: center;
+   box-shadow: 0px 3px  60px  #00000029;
+   border-radius: 10px;
+}
+.clientstyle{
+    width: 18em;
+    word-wrap: break-word;
+    color: #0098DA;
+}
+#rightarrow{
+    margin-top: -300x;
+    margin-left: 1300px;
+}
+.page7{
+    height: 200px;
+    width:auto;
+    background-color: #016B9D;
+    margin-left: -7px;
+}
+.location{
+margin-top: 60px;
+margin-left: 115px;
+color: white;
+}
+.email{
+    margin-top: -80px;
+    margin-left: 450px;
+    color: white;
+}
+.phone{
+    margin-top: -70px;
+    margin-left: 720px;
+    color: white;
+}
+.social{
+    margin-top:-60px;
+    margin-left: 1100px;
+}
+.fusce{
+    width: 11em;
+    word-wrap: break-word;
+}
+#copyright{
+    color: white;
+    font-size:17px;
+    margin-top:15px ;
+    margin-left:1000px
+}
+.box{
+    width:600px;
+    height: 40px;
+    margin: auto;
+}
