@@ -4,9 +4,9 @@ background-color: #0098DA ;
 position: relative;
 }
 .navbar{
-    height:60px; width:1400px; margin-left: -36px;top: 0;
+    height:60px; margin-left:3px;top: 0;
     background-color:#028BC9;  position: fixed;
-    z-index: 2;
+    z-index: 2; left: 0;right: 0;
 }
 .container{
     margin: auto;
