@@ -8,18 +8,18 @@
     margin: auto;   max-width: 1280px;
     overflow: hidden;
 }
- .navbar ul{
+ul{
  float: right;      margin-left: 0px;
  margin-right: 60px;  }
- .navbar ul li{ display: inline-block; }
-.navbar ul li a{
+ ul li{ display: inline-block; }
+ ul li a{
     color:black;padding: 6px; transition: 0.6sease;
     text-decoration: none; font-size: 23px;
  }
-.navbar ul li a:hover{
+ ul li a:hover{
     background-color:red;  color: black;  }
-.navbar .logo img{ height:65px; width:200px; float: left;   }
-.navbar ul li button{
+.logo img{ height:65px; width:200px; float: left;   }
+ul li button{
     background-color: #F92524;
     color: white;   height:50px; width: 120px;
     text-align: center;  border-radius: 5px;
@@ -202,7 +202,7 @@ font-family: 'Poppins',Light;
 .our_pricing .gym2{   border:5px solid red;       }
 
 /*  ---- contact us section form starts-------- */
-.contact_us{   height:600px;   }
+.contact_us{  margin-top: 40px;   height:600px;   }
 .contact_us h1{   margin-left: 540px; font-family: 'Poppins',Bold;
 }
 .contact_us form{   margin-top:60px;   margin-left: 130px;
