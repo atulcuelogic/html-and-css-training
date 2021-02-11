@@ -1,262 +1,117 @@
- .navbar{
-    height:70px; top: 0;
-    position: fixed;
-    z-index: 2; left: 25px;right: 20px;
-    font-family: 'Poppins',Light;
-}
-.container{
-    margin: auto;   max-width: 1280px;
-    overflow: hidden;
-}
-ul{
- float: right;      margin-left: 0px;
- margin-right: 60px;  }
+ .navbar{   height:70px;   top: 0;       position: fixed;
+            z-index: 2;    left: 25px;   right: 20px;   font-family: 'Poppins',Light;      }
+.container{   margin: auto;   max-width: 1280px;   overflow: hidden;                   }
+ul{            float: right;  margin-left: 0px;   margin-right: 60px;     }
  ul li{ display: inline-block; }
  ul li a{
-    color:black;padding: 6px; transition: 0.6sease;
-    text-decoration: none; font-size: 23px;
- }
- ul li a:hover{
-    background-color:red;  color: black;  }
+ color:black;padding: 6px; transition: 0.6sease;  text-decoration: none; font-size: 23px;  }
+ ul li a:hover{    background-color:red;  color: black;    }
 .logo img{ height:65px; width:200px; float: left;   }
-ul li button{
-    background-color: #F92524;
-    color: white;   height:50px; width: 120px;
-    text-align: center;  border-radius: 5px;
-}
+ul li button{   background-color: #F92524;   color: white;   height:50px; width: 120px;
+                text-align: center;  border-radius: 5px;   padding-bottom: 30px;      }
 #home_un{  text-decoration:underline red; }
 
 /*    -----HOMEPAGE---------------- */
-.homepage{
-margin-top: 60px;    height:600px; 
-font-family:'Poppins',Light; }
-.homepage .front{ margin-top: 200px; margin-left: 40px;  }
-.homepage .front #shape{  font-size:50px; font:bolder;
-font-family: 'Poppins',Bold;}
+.homepage{   margin-top:70px;    height:600px;   font-family:'Poppins',Light;       }
+.homepage .front{     margin-top: 200px; margin-left: 40px;                             }
+.homepage .front #shape{  font-size:50px; font:bolder;  font-family: 'Poppins',Bold;   }
 .homepage .front h1{ color: white;    }
-.homepage .front #text{
-    color: white;   width: 30em;
-    word-wrap: break-word;
-    text-align:left;  padding-bottom: 20px;
-}
-.homepage .front button{
-    height: 45px; width: 140px;
-    background-color: red;
-    color: white;
-}
-.homepage .front #join #imag{    margin-left: -5px; 
-height: 44px; width: 50px;   background-color: red;
-}
-.homepage .front_img{
-    height: 750px;  width: 700px;
-     margin-top: -500px;  margin-left:580px;
-}
+.homepage .front #text{  color: white;   width: 30em;
+    word-wrap: break-word;    text-align:left;  padding-bottom: 20px;    }
+.homepage .front button{  height: 45px; width: 140px;  background-color: red;  color: white;  }
+.homepage .front #join #imag{    margin-left: -5px; height: 44px; width: 50px;   background-color: red;  }
+.homepage .front_img{    height: 750px;  width: 700px;   margin-top: -500px;  margin-left:580px;    }
 .homepage .front_img #banner1{ margin-top:100px;   }
-.homepage .front_img #banner2{
-    margin-left:250px; margin-top: -105px;
-    height: 350px;   width: 350px;
-}
+.homepage .front_img #banner2{    margin-left:250px; margin-top: -105px;   height: 350px;   width: 350px;   }
 
 /* ---section 2 our story section starts --- */
-.our_story{
-    padding-top: 40px;   height: 600px;
-    background-color: white;
-}
+.our_story{   padding-top: 40px;   height: 600px;  background-color: white;    }
 .our_story .fitness{   margin-left:40px;  }
 .our_story .fitness img{  opacity: 85%;  }
-.our_story .fitness #imm{
-    height: 480px;   width: 420px;
-    padding-bottom: 90px;  position: relative;
-}
-.our_story .fitness #inner{
-    background-color: red;   opacity: 65%;
-    text-align: center;   height:440px;
-     width: 350px; margin-top: -530px;
-     margin-left: 40px;   position: absolute;
-     color: white;
-}
-.our_story .fitness #inner  #wrapword{
-    margin-left: 80px;   width: 12em;
-    word-wrap: break-word;  text-align: center;
-    padding-top: 40px;   padding-bottom:180px;
-    color: white;
-    font-family: 'Raleway',Medium;
-}
+.our_story .fitness #imm{  height: 480px;   width: 420px;   padding-bottom: 90px;  position: relative;   }
+.our_story .fitness #inner{ background-color: red;   opacity: 65%;   text-align: center;   height:440px;
+     width: 350px; margin-top: -530px;  margin-left: 40px;   position: absolute;   color: white;   }
+.our_story .fitness #inner  #wrapword{   margin-left: 80px;   width: 12em;   word-wrap: break-word; 
+     text-align: center;  padding-top: 40px;   padding-bottom:180px;    color: white;
+    font-family: 'Raleway',Medium;  }
 .our_story .fitness #inner button{
-    height:35px ;
-    width:150px;   background-color:#FFFFFF;
-    text-align: center;   color:red;
-}
-.our_story .story{
-    height:500px;  width: 800px;
-    margin-left: 600px; margin-top: -590px;
-}
-.our_story .story h1{   text-decoration: underline solid red;
-    font-family: 'Poppins',Bold;
-}
-.our_story .story #para{
-    width: 37em;  word-wrap: break-word;
-    color: #7A839E; padding-bottom: 80px;
-    padding-top: 20px; font-family: 'Poppins',Light;
-}
+    height:35px ; width:150px;   background-color:#FFFFFF;text-align: center;   color:red; }
+.our_story .story{   height:500px;  width: 800px;  margin-left: 600px; margin-top: -590px;  }
+.our_story .story h1{   text-decoration: underline solid red;   font-family: 'Poppins',Bold;}
+.our_story .story #para{width: 37em;  word-wrap: break-word;color: #7A839E; padding-bottom: 80px;
+    padding-top: 20px; font-family: 'Poppins',Light;  }
 .our_story .story #para span{  padding-bottom: 40px;  }
-.our_story .story h1{
-    font-family: 'Poppins',bold;
-}
-.our_story .story .door p{
-    width: 30em;   word-wrap: break-word;
-    color: #7A839E;
-    font-family: 'Poppins',Light;
-}
-.our_story .story .door .circleicon{
-    border-radius: 50%;   height:75px;
-    width: 75px;   border:solid red;
-     margin-right: 45px;   float: left;
-}
-.our_story .story .door h3{   font-family: 'Poppins',Medium;
-}
-.our_story .story .door .circleicon img{   margin-left: 18px; margin-top: 8px;
-}
+.our_story .story h1{ font-family: 'Poppins',bold;}
+.our_story .story .door p{width: 30em;   word-wrap: break-word;  color: #7A839E;  font-family: 'Poppins',Light; }
+.our_story .story .door .circleicon{   border-radius: 50%;   height:75px;
+    width: 75px;   border:solid red;  margin-right: 45px;   float: left; }
+.our_story .story .door h3{   font-family: 'Poppins',Medium;   }
+.our_story .story .door .circleicon img{   margin-left: 18px; margin-top: 8px;  }
 
 /* ---------our classes section starts------------ */
-.our_classes{   background-color: #F1F1F1;   height:800px;
-}
+.our_classes{   background-color: #F1F1F1;   height:800px;  }
 .our_classes #heading{   margin-top: -5px;  }
 .our_classes ul{   padding-bottom: 20px; }
-.our_classes ul li #redall{
-    color: red;
-    text-decoration: underline solid red;
-}
+.our_classes ul li #redall{   color: red;   text-decoration: underline solid red; }
 .our_classes ul li h2{  margin-left: -950px;  padding-right: 60px;
-font-family: 'Poppins',Bold; margin-top: -50px;
-}
-.our_classes ul li h5{
-padding-right: 10px; margin-top: -25px; color: black;
-font-family: 'Poppins',Light;
-}
-.our_classes p{   width: 60em;
-    word-wrap: break-word; color: #7A839E;
-    margin-left: 90px; margin-top: 140px;
-    font-family: 'Poppins',Light;
-}
+font-family: 'Poppins',Bold; margin-top: -50px;}
+.our_classes ul li h5{  padding-right: 10px; margin-top: -25px; color: black; font-family: 'Poppins',Light; }
+.our_classes p{   width: 60em;  word-wrap: break-word; color: #7A839E;
+   margin-left: 90px; margin-top: 140px;  font-family: 'Poppins',Light;  }
 .our_classes #right{    margin-left: 1080px;   }
 .our_classes #bodyimages{   margin-left: 90px;  }
 .our_classes #bodyimages .images1{  float: left; padding-right: 10px;    }
-.our_classes #bodyimages .images1 .body1{
-    margin-top:80px;   height: 320px;
-    width: 245px;
-    border-radius: 35px 0 0 0;
-    padding-right:30px;
-}
-.our_classes #bodyimages .images1 .body3{
-    height:390px;  border-radius: 35px 0 45px 0;
-}
-.our_classes #bodyimages .images1 .sidehidden{
-    max-width:140px; overflow: hidden;
-}
-.our_classes #bodyimages .images1 .sidehidden a img{ 
-  width: 245px;   }
-.our_classes #bodyimages .images1 .text_rect{
-    margin-top: -25px;    height:70px;
-    width: 245px;   background-color: red;
-    border-radius: 0 0 35px;
-}
-.our_classes #bodyimages .images1 .text_rect2{  width: 140px; border-radius: 0px;
-}
-.our_classes #bodyimages .images1 .text_rect1{
-    margin-top: -160px; opacity: 85%;
-    border-radius: 0px;
-}
-.our_classes #bodyimages .images1 .text_rect h4 , h5{
-    margin-left: 3px; color: white;
-}
-.our_classes #bodyimages .images1 .text_rect img{ 
-  margin-left: 3px;  float: left; padding-right: 5px;
-}
+.our_classes #bodyimages .images1 .body1{   margin-top:80px;   height: 320px;
+                                      width: 245px;   border-radius: 35px 0 0 0; padding-right:30px;   }
+.our_classes #bodyimages .images1 .body3{  height:390px;  border-radius: 35px 0 45px 0;  }
+.our_classes #bodyimages .images1 .sidehidden{  max-width:140px; overflow: hidden;   }
+.our_classes #bodyimages .images1 .sidehidden a img{  width: 245px;   }
+.our_classes #bodyimages .images1 .text_rect{  margin-top: -25px;    height:70px;
+                                  width: 245px;   background-color: red;   border-radius: 0 0 35px;  }
+.our_classes #bodyimages .images1 .text_rect2{  width: 140px; border-radius: 0px; }
+.our_classes #bodyimages .images1 .text_rect1{   margin-top: -160px; opacity: 85%; border-radius: 0px; }
+.our_classes #bodyimages .images1 .text_rect h4 , h5{    margin-left: 3px; color: white;  }
+.our_classes #bodyimages .images1 .text_rect img{  margin-left: 3px;  float: left; padding-right: 5px; }
 
 /* ------------our pricing section starts----------- */
 .our_pricing{    padding-top: 40px;  height: 700px; }
 .our_pricing h1{  margin-left: 530px;  font-family: 'Poppins',Bold;  }
-.our_pricing #tex{
-    margin-left: 135px;   width: 59em;
-    word-wrap: break-word;   color: #7A839E;
-    text-align: center;
-    font-family: 'Poppins',Light;
-}
-.our_pricing .gym{
-    margin-top: 75px;   height:475px;
-    width: 320px;  text-align: center;  
-     align-items: center;   float:left;
-    padding-right: 10px;  margin-left: 60px;
-    font-family: 'Poppins',Light;
-}
-.our_pricing .gym h4{  font-family: 'Poppins',Bold;  }
-.our_pricing .gym h3{    margin-top:40px;  font-family: 'Poppins',Bold;       }
-.our_pricing .gym p{     color: #7A839E;      }
-.our_pricing .gym a img{   margin-top: 55px;      }
-.our_pricing .gym button{
-    margin-top:40px;
-    height: 37px;    width: 110px;
-}
+.our_pricing #tex{  margin-left: 135px;   width: 59em;  word-wrap: break-word;   color: #7A839E;
+                                          text-align: center; font-family: 'Poppins',Light;  }
+.our_pricing .gym{  margin-top: 75px; height:475px;  width: 320px; text-align: center; 
+  align-items: center;   float:left;  padding-right: 10px;  margin-left: 60px;  font-family: 'Poppins',Light; }
+.our_pricing .gym h4{      font-family: 'Poppins',Bold;  }
+.our_pricing .gym h3{       margin-top:40px;  font-family: 'Poppins',Bold;       }
+.our_pricing .gym p{        color: #7A839E;      }
+.our_pricing .gym a img{    margin-top: 55px;      }
+.our_pricing .gym button{   margin-top:40px;  height: 37px;    width: 110px;  }
 .our_pricing .gym2 button{background-color: red;  }   
 .our_pricing .gym2{   border:5px solid red;       }
 
 /*  ---- contact us section form starts-------- */
 .contact_us{  margin-top: 40px;   height:600px;   }
-.contact_us h1{   margin-left: 540px; font-family: 'Poppins',Bold;
-}
-.contact_us form{   margin-top:60px;   margin-left: 130px;
-}
-.contact_us form input{   width: 400px;
-    height: 40px;   padding-right: 60px; font-family: 'Poppins',Regular;
-}
-.contact_us form select{   height: 40px;   width: 465px; font-family: 'Poppins',Regular;
-}
-.contact_us form textarea{  height: 120px; width:970px; font-family: 'Poppins',Regular;
-}
-.contact_us form button{
-    height: 45px;    width:200px;
-    background-color:red; color:white;
-    margin-left: 400px;   margin-top: 80px;
-    font-family: 'Poppins',Regular;
-}
-.contact_us form input,select,textarea{   margin-top: 30px; margin-right: 40px;
-}
+.contact_us h1{   margin-left: 540px; font-family: 'Poppins',Bold;  }
+.contact_us form{   margin-top:60px;   margin-left: 130px;    }
+.contact_us form input{   width: 400px; height: 40px;   padding-right: 60px; font-family: 'Poppins',Regular; }
+.contact_us form select{   height: 40px;   width: 465px; font-family: 'Poppins',Regular;  }
+.contact_us form textarea{  height: 120px; width:970px; font-family: 'Poppins',Regular;    }
+.contact_us form button{  height: 45px;    width:200px;  background-color:red; color:white;
+                          margin-left: 400px;   margin-top: 80px;    font-family: 'Poppins',Regular;  }
+.contact_us form input,select,textarea{   margin-top: 30px; margin-right: 40px;  }
+
 /*   -----people says sections --------- */
 .people_says{   height: 550px;  }
 .people_says h1{   margin-left: 130px; font-family: 'Poppins',Bold;   }
-.people_says p{
-    width:48em;   word-wrap: break-word;
-    color: #7A839E;   margin-left: 130px;
-    font-family: 'Poppins',Light;
-}
-.people_says .christopher{   height:350px;   width:380px;
-    margin-left: 130px;   margin-top: 60px;
-    float: left;   padding-right:65px;
-}
-.people_says .christopher .par{   margin-top: 20px;
-    width: 24em;   word-wrap: break-word;
-    color: #7A839E;   margin-bottom:20px;
-    font-family: 'Poppins',Light;
-}
-.people_says .christopher img{  border-radius: 50%;  padding-bottom:10px;
-}
-.people_says .christopher p{   margin-left: -1px;   margin-top: -10px;
-}
+.people_says p{ width:48em;   word-wrap: break-word;
+    color: #7A839E;   margin-left: 130px;  font-family: 'Poppins',Light;   }
+.people_says .christopher{   height:350px;  width:380px;
+    margin-left: 130px;   margin-top: 60px;  float: left;   padding-right:65px;   }
+.people_says .christopher .par{   margin-top: 20px;  width: 24em;   word-wrap: break-word;
+    color: #7A839E;   margin-bottom:20px;  font-family: 'Poppins',Light;  }
+.people_says .christopher img{  border-radius: 50%;  padding-bottom:10px;   }
+.people_says .christopher p{   margin-left: -1px;   margin-top: -10px;      }
 
 /*---- --- footer section---------------- */
-.footer{   height:60px;
-           background-color: red;  bottom: 0;
-           left: 0; right: 0; 
-           align-items: center;
-}
-.footer .im{  margin-left:1110px;
-    font-family: 'Poppins',Light;
-}
-.footer .im img{    background-color: white;
-    color: red;   height: 30px;
-    width: 30px;   padding-right: 5px;
-}
-.footer .im #tc{   margin-top: 10px;
-    margin-left: -1100px;  color: white;
-}
+.footer{   height:60px;  background-color: red;  bottom: 0;  left: 0; right: 0; align-items: center;   }
+.footer .im img{  background-color: white;  color: red;  height: 30px;  width: 30px;margin-top: 15px; }
+.footer .im h4{ margin-top: 20px;   color: white;  float: left; padding-right:800px;  font-family: 'Poppins',Light;}
